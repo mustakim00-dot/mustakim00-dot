@@ -1,0 +1,21 @@
+1. Code Runner
+2. Code Spell Checker
+3. CodeSnap-luo
+4. css-auto-prefix
+5. darkLover
+6. ES7+ React/Redux/React-Native snippets
+7. GitHub Copilot Chat
+8. Headwind
+9. html to JSX
+10. Live Preview
+11. Live Server
+12. Markdown All in One
+13. MongoDB for VS Code
+14. Prettier - Code formatter
+15. Quokka.js
+16. Tailwind CSS IntelliSense
+17.vscode-icons
+18. Windsurf Plugin (formerly Codeium): AI Coding Autocomplet
+19. Emoji
+20. Emoji
+21. GitHub Copilot
