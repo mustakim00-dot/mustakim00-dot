@@ -1,0 +1,228 @@
+Tailwindcss property basic to advance all
+
+নিচে Tailwind CSS (v3+) এর Basic → Advanced সব গুরুত্বপূর্ণ utility classes একদম complete structured cheat-sheet আকারে দিলাম।
+এটা তুমি HTML / React / Next.js প্রজেক্টে direct reference হিসেবে ব্যবহার করতে পারবে।
+
+🌊 Tailwind CSS Overview
+
+✔️ Utility-first CSS
+✔️ Mobile-first
+✔️ Highly customizable
+✔️ No predefined components
+
+1️⃣ Layout
+container
+box-border
+box-content
+block
+inline-block
+inline
+hidden
+
+2️⃣ Display & Position
+relative
+absolute
+fixed
+sticky
+
+top-0
+bottom-0
+left-0
+right-0
+inset-0
+
+3️⃣ Flexbox (VERY IMPORTANT 🔥)
+flex
+inline-flex
+flex-row
+flex-col
+flex-wrap
+flex-nowrap
+
+justify-start
+justify-center
+justify-between
+justify-around
+justify-evenly
+
+items-start
+items-center
+items-end
+items-baseline
+items-stretch
+
+Flex Item
+flex-1
+flex-auto
+flex-initial
+flex-none
+
+grow
+grow-0
+shrink
+shrink-0
+self-center
+
+4️⃣ Grid System
+grid
+grid-cols-1
+grid-cols-2
+grid-cols-12
+
+grid-rows-3
+gap-2
+gap-x-4
+gap-y-6
+
+col-span-2
+row-span-3
+
+5️⃣ Spacing (Margin & Padding)
+m-0
+m-4
+mt-6
+mb-2
+mx-auto
+
+p-0
+p-4
+pt-6
+px-8
+py-2
+
+6️⃣ Sizing
+w-1/2
+w-full
+w-screen
+h-10
+h-full
+h-screen
+
+min-w-full
+max-w-lg
+
+7️⃣ Typography
+text-xs
+text-sm
+text-base
+text-lg
+text-xl
+text-4xl
+
+font-thin
+font-light
+font-normal
+font-bold
+font-extrabold
+
+leading-none
+leading-relaxed
+tracking-wide
+
+8️⃣ Text & Color
+text-left
+text-center
+text-right
+
+text-red-500
+text-blue-600
+text-gray-700
+
+bg-red-500
+bg-blue-600
+bg-gray-100
+
+9️⃣ Border & Radius
+border
+border-2
+border-red-500
+
+rounded
+rounded-md
+rounded-lg
+rounded-full
+
+🔟 Effects & Shadow
+shadow
+shadow-md
+shadow-lg
+
+opacity-0
+opacity-50
+opacity-100
+
+1️⃣1️⃣ Background
+bg-cover
+bg-contain
+bg-center
+bg-no-repeat
+
+1️⃣2️⃣ Transform
+scale-100
+scale-110
+rotate-45
+translate-x-4
+translate-y-2
+
+1️⃣3️⃣ Transition & Animation
+transition
+transition-all
+duration-300
+ease-in-out
+
+animate-spin
+animate-pulse
+animate-bounce
+
+1️⃣4️⃣ Pseudo Class (State)
+hover:bg-red-500
+focus:outline-none
+active:scale-95
+disabled:opacity-50
+
+1️⃣5️⃣ Responsive Design (Breakpoints)
+sm:bg-red-500
+md:bg-blue-500
+lg:bg-green-500
+xl:bg-yellow-500
+2xl:bg-purple-500
+
+1️⃣6️⃣ Dark Mode
+dark:bg-black
+dark:text-white
+
+1️⃣7️⃣ Advanced Utilities
+overflow-hidden
+overflow-scroll
+scroll-smooth
+
+cursor-pointer
+pointer-events-none
+select-none
+
+object-cover
+object-center
+
+1️⃣8️⃣ Aspect Ratio
+aspect-square
+aspect-video
+
+1️⃣9️⃣ Ring & Outline
+ring
+ring-2
+ring-blue-500
+outline-none
+
+2️⃣0️⃣ Z-Index
+z-0
+z-10
+z-20
+z-50
+
+🔥 Interview + Real Project MUST KNOW
+
+✔️ Flex + Grid
+✔️ Responsive utilities
+✔️ Hover / Focus / Dark mode
+✔️ Spacing & Sizing
+✔️ Transition & Animation
