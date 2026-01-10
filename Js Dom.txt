@@ -1,0 +1,217 @@
+🔥 JAVASCRIPT DOM (BASIC → ADVANCED)
+🟢 1. DOM কী?
+
+DOM হলো HTML document-এর JavaScript object representation
+JS দিয়ে HTML read / change / delete / add করা যায়।
+
+HTML → DOM Tree → JavaScript Control
+
+🟢 2. DOM TREE STRUCTURE
+<html>
+  <body>
+    <h1>Hello</h1>
+    <p>Text</p>
+  </body>
+</html>
+
+
+📌 Nodes:
+
+Document node
+
+Element node
+
+Text node
+
+Attribute node
+
+🟢 3. DOM SELECTORS (BASIC)
+🔹 Single Element
+document.getElementById("id")
+document.querySelector(".class")
+document.querySelector("tag")
+
+🔹 Multiple Elements
+document.getElementsByClassName("box")
+document.getElementsByTagName("p")
+document.querySelectorAll(".item")
+
+
+📌 querySelectorAll → NodeList (forEach কাজ করে)
+
+🟢 4. DOM CONTENT CHANGE
+🔹 Text Change
+element.innerText = "Hello"
+element.textContent = "Hello"
+element.innerHTML = "<b>Hello</b>"
+
+Property	কাজ
+innerText	Visible text
+textContent	All text
+innerHTML	HTML insert
+🟢 5. DOM STYLE CHANGE
+element.style.color = "red"
+element.style.backgroundColor = "blue"
+
+🔹 Class Control
+element.classList.add("active")
+element.classList.remove("active")
+element.classList.toggle("active")
+element.classList.contains("active")
+
+🟢 6. DOM ATTRIBUTES
+element.getAttribute("href")
+element.setAttribute("href", "#")
+element.removeAttribute("disabled")
+element.hasAttribute("src")
+
+🟢 7. DOM EVENTS (VERY IMPORTANT)
+🔹 Event Add
+button.addEventListener("click", () => {
+  alert("Clicked")
+})
+
+🔹 Common Events
+Event
+click
+dblclick
+mouseover
+mouseout
+keydown
+keyup
+change
+input
+submit
+load
+scroll
+🟢 8. EVENT OBJECT
+element.addEventListener("click", (event) => {
+  console.log(event.target)
+  console.log(event.type)
+})
+
+🟡 9. EVENT BUBBLING & CAPTURING (INTERMEDIATE)
+parent.addEventListener("click", () => {
+  console.log("Parent")
+}, true) // Capturing
+
+Phase
+Capturing
+Target
+Bubbling
+🔹 Stop bubbling
+event.stopPropagation()
+
+🟡 10. EVENT DELEGATION (ADVANCED)
+ul.addEventListener("click", (e) => {
+  if (e.target.tagName === "LI") {
+    console.log(e.target.innerText)
+  }
+})
+
+
+✔ Performance better
+✔ Dynamic elements support
+
+🟡 11. DOM CREATE / REMOVE
+🔹 Create
+const div = document.createElement("div")
+div.innerText = "Hello"
+document.body.appendChild(div)
+
+🔹 Insert
+parent.append()
+parent.prepend()
+parent.before()
+parent.after()
+
+🔹 Remove
+element.remove()
+parent.removeChild(child)
+
+🟡 12. TRAVERSING DOM
+element.parentElement
+element.children
+element.firstElementChild
+element.lastElementChild
+element.nextElementSibling
+element.previousElementSibling
+
+🟡 13. FORM DOM
+form.addEventListener("submit", (e) => {
+  e.preventDefault()
+})
+
+🔹 Form Value
+input.value
+checkbox.checked
+select.value
+
+🟡 14. DOM DIMENSIONS
+element.clientWidth
+element.clientHeight
+element.offsetWidth
+element.scrollHeight
+
+🔴 15. WINDOW & DOCUMENT OBJECT (ADVANCED)
+window.innerWidth
+window.scrollY
+document.title
+document.URL
+
+🔴 16. DOM PERFORMANCE
+🔹 Reflow / Repaint
+
+❌ বারবার DOM change
+✔ Use DocumentFragment
+
+const fragment = document.createDocumentFragment()
+
+🔴 17. MUTATION OBSERVER
+const observer = new MutationObserver((mutations) => {
+  console.log(mutations)
+})
+
+observer.observe(element, { childList: true })
+
+🔴 18. INTERSECTION OBSERVER
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      console.log("Visible")
+    }
+  })
+})
+observer.observe(element)
+
+
+✔ Lazy loading
+✔ Infinite scroll
+
+🔴 19. SHADOW DOM
+const shadow = element.attachShadow({ mode: "open" })
+shadow.innerHTML = `<p>Hello</p>`
+
+
+✔ Web Components
+
+🔴 20. DOM SECURITY
+
+❌ innerHTML with user input
+✔ Use textContent
+
+🔥 MUST PRACTICE PROJECT IDEAS
+
+1️⃣ Todo App
+2️⃣ Modal Popup
+3️⃣ Image Slider
+4️⃣ Form Validation
+5️⃣ Infinite Scroll
+
+🧠 INTERVIEW HOT QUESTIONS
+
+✔ innerText vs textContent
+✔ Event delegation
+✔ Bubbling vs Capturing
+✔ Reflow & Repaint
+✔ querySelector vs getElementById
