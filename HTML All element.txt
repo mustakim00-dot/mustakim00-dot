@@ -1,0 +1,175 @@
+🔹 1. HTML BASIC ELEMENTS
+📄 Document Structure
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title</title>
+</head>
+<body>
+  Content
+</body>
+</html>
+
+Element	কাজ
+<!DOCTYPE>	HTML5 ডিক্লেয়ার
+<html>	Root element
+<head>	Meta info
+<title>	Browser title
+<body>	Visible content
+
+✍️ Text Elements
+Element	কাজ
+<h1> – <h6>	Heading
+<p>	Paragraph
+<br>	Line break
+<hr>	Horizontal line
+<strong>	Bold (important)
+<b>	Bold
+<em>	Italic (important)
+<i>	Italic
+<mark>	Highlight
+<small>	Small text
+<del>	Delete
+<ins>	Insert
+<sub>	Subscript
+<sup>	Superscript
+
+🔗 Link & Media
+Element	কাজ
+<a>	Link
+<img>	Image
+<audio>	Audio
+<video>	Video
+<source>	Media source
+<a href="#">Link</a>
+<img src="img.jpg" alt="image">
+
+🔹 2. LIST & TABLE ELEMENTS
+📋 List
+Element	কাজ
+<ul>	Unordered list
+<ol>	Ordered list
+<li>	List item
+<dl>	Description list
+<dt>	Term
+<dd>	Description
+
+📊 Table
+Element	কাজ
+<table>	Table
+<tr>	Row
+<td>	Data
+<th>	Header
+<thead>	Table head
+<tbody>	Body
+<tfoot>	Footer
+<caption>	Table title
+
+🔹 3. FORM ELEMENTS (VERY IMPORTANT)
+🧾 Form Structure
+Element	কাজ
+<form>	Form
+<input>	Input
+<textarea>	Text area
+<button>	Button
+<label>	Label
+<select>	Dropdown
+<option>	Option
+<fieldset>	Group
+<legend>	Group title
+
+🔹 Input Types (Must Know)
+<input type="text">
+
+Type
+text
+password
+email
+number
+checkbox
+radio
+file
+date
+time
+color
+range
+submit
+reset
+hidden
+
+🔹 4. SEMANTIC HTML (ADVANCED & SEO)
+Element	কাজ
+<header>	Header
+<nav>	Navigation
+<main>	Main content
+<section>	Section
+<article>	Article
+<aside>	Sidebar
+<footer>	Footer
+<figure>	Image container
+<figcaption>	Caption
+<details>	Toggle
+<summary>	Title
+<time>	Date/time
+
+🔹 5. EMBED & INTERACTIVE ELEMENTS
+Element	কাজ
+<iframe>	External page
+<embed>	External content
+<object>	External resource
+<progress>	Progress bar
+<meter>	Measurement
+
+🔹 6. META & HEAD ELEMENTS (ADVANCED)
+Element	কাজ
+<meta>	Metadata
+<link>	CSS link
+<style>	CSS
+<script>	JS
+<base>	Base URL
+
+🔹 7. HTML GLOBAL ATTRIBUTES (IMPORTANT)
+Attribute
+id
+class
+style
+title
+hidden
+data-*
+contenteditable
+draggable
+tabindex
+
+🔹 8. HTML API / ADVANCED FEATURES
+Feature
+<canvas>
+<svg>
+Geolocation API
+Drag & Drop
+Web Storage
+Web Workers
+
+🔹 9. BLOCK vs INLINE ELEMENTS
+🧱 Block
+
+div, p, h1, section, article
+
+➖ Inline
+
+span, a, img, strong, em
+
+🔹 10. BEST PRACTICES (Professional)
+
+✔ Semantic HTML ব্যবহার কর
+✔ alt attribute দাও
+✔ Heading order ঠিক রাখো
+✔ Form validation ব্যবহার কর
+✔ Clean & readable code লেখো
+
+🔥 LEARNING PATH (For You)
+
+1️⃣ HTML Basic
+2️⃣ Forms + Semantic
+3️⃣ CSS
+4️⃣ JavaScript
+5️⃣ React
