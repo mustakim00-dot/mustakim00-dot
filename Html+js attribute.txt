@@ -1,0 +1,244 @@
+🔷 HTML Attributes (A → Z) – Details Guide
+
+Attribute = HTML element-এর extra information
+
+<tag attribute="value">Content</tag>
+
+🔤 A
+accept
+
+👉 কোন file টাইপ accept করবে
+
+<input type="file" accept="image/*">
+
+action
+
+👉 form submit হলে কোথায় যাবে
+
+<form action="/submit">
+
+alt
+
+👉 image না লোড হলে text
+
+<img src="a.jpg" alt="profile image">
+
+async
+
+👉 script async load
+
+<script src="app.js" async></script>
+
+autoplay
+
+👉 audio/video auto play
+
+<video autoplay></video>
+
+🔤 B
+border (deprecated)
+<table border="1">
+
+🔤 C
+class
+
+👉 CSS / JS select
+
+<div class="box"></div>
+
+checked
+
+👉 checkbox / radio default checked
+
+<input type="checkbox" checked>
+
+cols
+
+👉 textarea width
+
+<textarea cols="30"></textarea>
+
+contenteditable
+
+👉 editable text
+
+<p contenteditable="true">Edit me</p>
+
+🔤 D
+data-*
+
+👉 custom data store
+
+<button data-id="5"></button>
+
+
+JS:
+
+btn.dataset.id
+
+disabled
+
+👉 input disable
+
+<input disabled>
+
+download
+
+👉 link download
+
+<a href="file.pdf" download>Download</a>
+
+🔤 E
+enctype
+
+👉 form encoding
+
+<form enctype="multipart/form-data">
+
+🔤 F
+for
+
+👉 label connect input
+
+<label for="email"></label>
+<input id="email">
+
+form
+
+👉 input belongs to which form
+
+<input form="myForm">
+
+🔤 H
+href
+
+👉 link address
+
+<a href="https://google.com"></a>
+
+hidden
+
+👉 element hide
+
+<div hidden></div>
+
+🔤 I
+id
+
+👉 unique identifier
+
+<div id="app"></div>
+
+inputmode
+
+👉 mobile keyboard type
+
+<input inputmode="numeric">
+
+🔤 L
+lang
+
+👉 language
+
+<html lang="bn">
+
+loading
+
+👉 lazy load
+
+<img src="a.jpg" loading="lazy">
+
+🔤 M
+maxlength
+<input maxlength="10">
+
+multiple
+<input type="file" multiple>
+
+muted
+<video muted></video>
+
+🔤 N
+name
+
+👉 form data key
+
+<input name="email">
+
+novalidate
+
+👉 form validation off
+
+<form novalidate>
+
+🔤 O
+open
+
+👉 details open
+
+<details open></details>
+
+🔤 P
+placeholder
+<input placeholder="Enter name">
+
+pattern
+
+👉 regex validation
+
+<input pattern="[0-9]{4}">
+
+🔤 R
+readonly
+<input readonly>
+
+required
+<input required>
+
+rows
+<textarea rows="5"></textarea>
+
+🔤 S
+src
+<img src="img.png">
+
+style
+<p style="color:red"></p>
+
+selected
+<option selected>BD</option>
+
+🔤 T
+target
+<a href="x" target="_blank">
+
+type
+<input type="password">
+
+title
+
+👉 tooltip
+
+<p title="Hello"></p>
+
+🔤 V
+value
+<input value="123">
+
+🔤 W
+width
+<img width="200">
+
+🌐 Global Attributes (সব element-এ কাজ করে)
+Attribute
+id
+class
+style
+title
+hidden
+tabindex
+contenteditable
+data-*
+🎯 Interview Tip
+
+Attribute element-কে extra behaviour ও information দেয়।
